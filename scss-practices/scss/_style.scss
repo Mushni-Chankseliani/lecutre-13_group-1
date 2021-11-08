@@ -1,0 +1,106 @@
+article {
+    padding: 50px 0;
+    .container {
+        max-width: $container-width;
+        width: 100%;
+        margin: 0 auto;
+        background-color: $container-bg;
+
+        @include transition(2s);
+
+        &:hover {
+            background-color: rgb(41, 0, 11);
+        }
+
+        h2 {
+            font-size: 32px;
+            color: $article-title;
+            margin-bottom: 20px;
+        }
+
+        div {
+            // display: flex;
+            // justify-content: space-between;
+            // align-items: flex-start;
+            @include flex-props(space-between);
+
+            img {
+                width: 30%;
+            }
+
+            p {
+                @extend %article-p;
+
+                @include transition(2s);
+
+                &:hover {
+                    color: darkgrey;
+                }
+            }
+
+            @media (max-width: 768px) {
+                @include flex-props(center, center, column);
+
+                img {
+                    width: 70%;
+                    margin-bottom: 30px;
+                }
+
+                p {
+                    text-align: center;
+                    width: 70%;
+                }
+            }
+        }
+
+        // @media (max-width: 1200px) {
+        //     width: 90%;
+
+        //     h2 {
+        //         color: green;
+        //     }
+        // }
+    }
+}
+
+.article-2 {
+    padding: 50px 0;
+    .container {
+        max-width: $container-width;
+        width: 100%;
+        margin: 0 auto;
+        background-color: $container-bg;
+
+        @include transition(2s);
+
+        &:hover {
+            background-color: rgb(41, 0, 11);
+        }
+
+        h2 {
+            font-size: 32px;
+            color: $article-title;
+            margin-bottom: 20px;
+        }
+
+        div {
+            // display: flex;
+            // justify-content: space-between;
+            // align-items: flex-start;
+            @include flex-props(space-between);
+
+            img {
+                width: 30%;
+            }
+
+            p {
+                @extend %article-p;
+                @include transition(2s);
+
+                &:hover {
+                    color: darkgrey;
+                }
+            }
+        }
+    }
+}

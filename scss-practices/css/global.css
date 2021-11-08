@@ -1,0 +1,294 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+article .container div p, .article-2 .container div p {
+  width: 60%;
+  color: white;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 1.5px;
+}
+
+article {
+  padding: 50px 0;
+}
+
+article .container {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #c2c2c2;
+  -webkit-transition: all 2s linear 0s;
+  transition: all 2s linear 0s;
+}
+
+article .container:hover {
+  background-color: #29000b;
+}
+
+article .container h2 {
+  font-size: 32px;
+  color: #580000;
+  margin-bottom: 20px;
+}
+
+article .container div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+article .container div img {
+  width: 30%;
+}
+
+article .container div p {
+  -webkit-transition: all 2s linear 0s;
+  transition: all 2s linear 0s;
+}
+
+article .container div p:hover {
+  color: darkgrey;
+}
+
+@media (max-width: 768px) {
+  article .container div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  article .container div img {
+    width: 70%;
+    margin-bottom: 30px;
+  }
+  article .container div p {
+    text-align: center;
+    width: 70%;
+  }
+}
+
+.article-2 {
+  padding: 50px 0;
+}
+
+.article-2 .container {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #c2c2c2;
+  -webkit-transition: all 2s linear 0s;
+  transition: all 2s linear 0s;
+}
+
+.article-2 .container:hover {
+  background-color: #29000b;
+}
+
+.article-2 .container h2 {
+  font-size: 32px;
+  color: #580000;
+  margin-bottom: 20px;
+}
+
+.article-2 .container div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.article-2 .container div img {
+  width: 30%;
+}
+
+.article-2 .container div p {
+  -webkit-transition: all 2s linear 0s;
+  transition: all 2s linear 0s;
+}
+
+.article-2 .container div p:hover {
+  color: darkgrey;
+}
+
+@media (max-width: 1200px) {
+  article .container {
+    width: 90%;
+  }
+  article .container h2 {
+    color: green;
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=global.css.map */

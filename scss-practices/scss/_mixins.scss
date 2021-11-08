@@ -1,0 +1,10 @@
+@mixin transition($duration, $delay: 0s) {
+    transition: all $duration linear $delay;
+}
+
+@mixin flex-props($justify: space-between, $align: center, $direction: row) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+    flex-direction: $direction;
+}
